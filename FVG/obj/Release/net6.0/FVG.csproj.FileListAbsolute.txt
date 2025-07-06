@@ -1,0 +1,12 @@
+C:\Users\zhuw3\Documents\cAlgo\Sources\Indicators\FVG\FVG\bin\Release\net6.0\FVG.deps.json
+C:\Users\zhuw3\Documents\cAlgo\Sources\Indicators\FVG\FVG\bin\Release\net6.0\FVG.dll
+C:\Users\zhuw3\Documents\cAlgo\Sources\Indicators\FVG\FVG\bin\Release\net6.0\ref\FVG.dll
+C:\Users\zhuw3\Documents\cAlgo\Sources\Indicators\FVG\FVG\bin\Release\net6.0\FVG.pdb
+C:\Users\zhuw3\Documents\cAlgo\Sources\Indicators\FVG\FVG\obj\Release\net6.0\FVG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zhuw3\Documents\cAlgo\Sources\Indicators\FVG\FVG\obj\Release\net6.0\FVG.AssemblyInfoInputs.cache
+C:\Users\zhuw3\Documents\cAlgo\Sources\Indicators\FVG\FVG\obj\Release\net6.0\FVG.AssemblyInfo.cs
+C:\Users\zhuw3\Documents\cAlgo\Sources\Indicators\FVG\FVG\obj\Release\net6.0\FVG.csproj.CoreCompileInputs.cache
+C:\Users\zhuw3\Documents\cAlgo\Sources\Indicators\FVG\FVG\obj\Release\net6.0\FVG.dll
+C:\Users\zhuw3\Documents\cAlgo\Sources\Indicators\FVG\FVG\obj\Release\net6.0\ref\FVG.dll
+C:\Users\zhuw3\Documents\cAlgo\Sources\Indicators\FVG\FVG\obj\Release\net6.0\FVG.pdb
+C:\Users\zhuw3\Documents\cAlgo\Sources\Indicators\FVG\FVG\obj\Release\net6.0\FVG.csproj.AssemblyReference.cache

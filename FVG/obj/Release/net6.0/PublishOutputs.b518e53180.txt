@@ -1,0 +1,4 @@
+C:\Users\zhuw3\Documents\cAlgo\Sources\Indicators\FVG\FVG\bin\Release\net6.0\publish\FVG.dll
+C:\Users\zhuw3\Documents\cAlgo\Sources\Indicators\FVG\FVG\bin\Release\net6.0\publish\FVG.deps.json
+C:\Users\zhuw3\Documents\cAlgo\Sources\Indicators\FVG\FVG\bin\Release\net6.0\publish\FVG.pdb
+C:\Users\zhuw3\Documents\cAlgo\Sources\Indicators\FVG\FVG\bin\Release\net6.0\publish\cAlgo.API.dll

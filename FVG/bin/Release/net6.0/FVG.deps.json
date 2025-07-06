@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FVG/1.0.0": {
+        "dependencies": {
+          "cTrader.Automate": "1.0.12"
+        },
+        "runtime": {
+          "FVG.dll": {}
+        }
+      },
+      "cTrader.Automate/1.0.12": {
+        "runtime": {
+          "lib/net6.0/cAlgo.API.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FVG/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "cTrader.Automate/1.0.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h+HPnbqPTkoSeojoYwWWOo5Jm9ExkmrmsU/WbF/idcgO2auKAPILBghZRP6Qt5mAcE/40YCRMNHT45/kzzs5Sg==",
+      "path": "ctrader.automate/1.0.12",
+      "hashPath": "ctrader.automate.1.0.12.nupkg.sha512"
+    }
+  }
+}
