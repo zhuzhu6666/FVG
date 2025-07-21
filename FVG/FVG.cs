@@ -200,7 +200,7 @@ namespace cAlgo.Indicators
                     var bar1 = Bars[processingIndex - 2];
                     var bar3 = Bars[processingIndex];
 
-                    if (bar1.High < bar3.Low && (bar3.Low - bar1.High) >= MinFvgSize)
+                    if (bar1.High < bar3.Low && (bar3.Low - bar1.High) / Symbol.TickSize >= MinFvgSize)
                     {
                         _activeFvgs.Add(new FairValueGap
                         {
@@ -210,7 +210,7 @@ namespace cAlgo.Indicators
                             RectangleName = $"{FvgObjectPrefix}Bull_{processingIndex}", IsMitigated = false
                         });
                     }
-                    else if (bar1.Low > bar3.High && (bar1.Low - bar3.High) >= MinFvgSize)
+                    else if (bar1.Low > bar3.High && (bar1.Low - bar3.High) / Symbol.TickSize >= MinFvgSize)
                     {
                         _activeFvgs.Add(new FairValueGap
                         {
