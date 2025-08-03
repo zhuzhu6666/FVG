@@ -9,4 +9,3 @@ C:\Users\zhuw3\Documents\cAlgo\Sources\Indicators\FVG\FVG\obj\Release\net6.0\FVG
 C:\Users\zhuw3\Documents\cAlgo\Sources\Indicators\FVG\FVG\obj\Release\net6.0\FVG.dll
 C:\Users\zhuw3\Documents\cAlgo\Sources\Indicators\FVG\FVG\obj\Release\net6.0\ref\FVG.dll
 C:\Users\zhuw3\Documents\cAlgo\Sources\Indicators\FVG\FVG\obj\Release\net6.0\FVG.pdb
-C:\Users\zhuw3\Documents\cAlgo\Sources\Indicators\FVG\FVG\obj\Release\net6.0\FVG.csproj.AssemblyReference.cache

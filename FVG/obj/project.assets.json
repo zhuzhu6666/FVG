@@ -2,17 +2,13 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "cTrader.Automate/1.0.12": {
+      "cTrader.Automate/1.0.13": {
         "type": "package",
         "compile": {
-          "lib/net6.0/cAlgo.API.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/cAlgo.API.dll": {}
         },
         "runtime": {
-          "lib/net6.0/cAlgo.API.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/cAlgo.API.dll": {}
         },
         "build": {
           "build/cTrader.Automate.props": {},
@@ -22,17 +18,17 @@
     }
   },
   "libraries": {
-    "cTrader.Automate/1.0.12": {
-      "sha512": "h+HPnbqPTkoSeojoYwWWOo5Jm9ExkmrmsU/WbF/idcgO2auKAPILBghZRP6Qt5mAcE/40YCRMNHT45/kzzs5Sg==",
+    "cTrader.Automate/1.0.13": {
+      "sha512": "teFQQhvFb8/1XQsvvGXNlUIkwZ6Ab+FZHqJ8kXiR2AW8IJA0EIue2dRHNglmlRdqSwnMhocSS9EkPZBTXxsHLQ==",
       "type": "package",
-      "path": "ctrader.automate/1.0.12",
+      "path": "ctrader.automate/1.0.13",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "build/cTrader.Automate.props",
         "build/cTrader.Automate.targets",
-        "ctrader.automate.1.0.12.nupkg.sha512",
+        "ctrader.automate.1.0.13.nupkg.sha512",
         "ctrader.automate.nuspec",
         "eula.md",
         "icon.png",
@@ -110,13 +106,7 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net6.0": {
@@ -133,31 +123,16 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.36, 6.0.36]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.36, 6.0.36]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.36, 6.0.36]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

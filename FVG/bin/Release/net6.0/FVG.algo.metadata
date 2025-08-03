@@ -24,7 +24,8 @@
         "PropertyName": "BullishColorString",
         "FriendlyName": "看涨颜色",
         "GroupName": "FVG 显示",
-        "IsValueVisibleInTitle": true
+        "IsValueVisibleInTitle": true,
+        "Description": ""
       },
       {
         "DefaultValue": "Tomato",
@@ -32,7 +33,8 @@
         "PropertyName": "BearishColorString",
         "FriendlyName": "看跌颜色",
         "GroupName": "FVG 显示",
-        "IsValueVisibleInTitle": true
+        "IsValueVisibleInTitle": true,
+        "Description": ""
       },
       {
         "DefaultValue": "Gray",
@@ -40,7 +42,8 @@
         "PropertyName": "MitigatedColorString",
         "FriendlyName": "已回补颜色",
         "GroupName": "FVG 显示",
-        "IsValueVisibleInTitle": true
+        "IsValueVisibleInTitle": true,
+        "Description": ""
       },
       {
         "DefaultValue": true,
@@ -48,7 +51,8 @@
         "PropertyName": "FillBoxes",
         "FriendlyName": "填充方框",
         "GroupName": "FVG 显示",
-        "IsValueVisibleInTitle": true
+        "IsValueVisibleInTitle": true,
+        "Description": ""
       },
       {
         "DefaultValue": true,
@@ -56,7 +60,8 @@
         "PropertyName": "ExtendBoxes",
         "FriendlyName": "延长方框",
         "GroupName": "FVG 显示",
-        "IsValueVisibleInTitle": true
+        "IsValueVisibleInTitle": true,
+        "Description": ""
       },
       {
         "MinValue": 0,
@@ -67,7 +72,8 @@
         "PropertyName": "BoxOpacity",
         "FriendlyName": "方框透明度",
         "GroupName": "FVG 显示",
-        "IsValueVisibleInTitle": true
+        "IsValueVisibleInTitle": true,
+        "Description": ""
       },
       {
         "DefaultValue": true,
@@ -75,7 +81,8 @@
         "PropertyName": "HideMitigated",
         "FriendlyName": "隐藏已回补FVG",
         "GroupName": "FVG 行为",
-        "IsValueVisibleInTitle": true
+        "IsValueVisibleInTitle": true,
+        "Description": ""
       },
       {
         "MinValue": 1,
@@ -86,7 +93,8 @@
         "PropertyName": "MaxFvgsToShow",
         "FriendlyName": "最大显示FVG数量",
         "GroupName": "FVG 行为",
-        "IsValueVisibleInTitle": true
+        "IsValueVisibleInTitle": true,
+        "Description": ""
       },
       {
         "MinValue": 0.0,
@@ -97,7 +105,8 @@
         "PropertyName": "MinFvgSize",
         "FriendlyName": "最小FVG尺寸 (点)",
         "GroupName": "FVG 行为",
-        "IsValueVisibleInTitle": true
+        "IsValueVisibleInTitle": true,
+        "Description": ""
       },
       {
         "DefaultValue": true,
@@ -105,7 +114,8 @@
         "PropertyName": "ShowDailyLines",
         "FriendlyName": "显示日线",
         "GroupName": "日线",
-        "IsValueVisibleInTitle": true
+        "IsValueVisibleInTitle": true,
+        "Description": ""
       },
       {
         "MinValue": 0,
@@ -116,7 +126,8 @@
         "PropertyName": "SessionResetHour",
         "FriendlyName": "交易日重置小时 (UTC)",
         "GroupName": "日线",
-        "IsValueVisibleInTitle": true
+        "IsValueVisibleInTitle": true,
+        "Description": ""
       },
       {
         "DefaultValue": "Green",
@@ -124,7 +135,8 @@
         "PropertyName": "HighLineColorString",
         "FriendlyName": "高点线颜色",
         "GroupName": "日线",
-        "IsValueVisibleInTitle": true
+        "IsValueVisibleInTitle": true,
+        "Description": ""
       },
       {
         "DefaultValue": "Red",
@@ -132,7 +144,8 @@
         "PropertyName": "LowLineColorString",
         "FriendlyName": "低点线颜色",
         "GroupName": "日线",
-        "IsValueVisibleInTitle": true
+        "IsValueVisibleInTitle": true,
+        "Description": ""
       },
       {
         "MinValue": 1,
@@ -143,7 +156,8 @@
         "PropertyName": "DailyLineThickness",
         "FriendlyName": "线段粗细",
         "GroupName": "日线",
-        "IsValueVisibleInTitle": true
+        "IsValueVisibleInTitle": true,
+        "Description": ""
       },
       {
         "EnumValues": {
@@ -159,7 +173,8 @@
         "PropertyName": "DailyLineStyle",
         "FriendlyName": "线段样式",
         "GroupName": "日线",
-        "IsValueVisibleInTitle": true
+        "IsValueVisibleInTitle": true,
+        "Description": ""
       },
       {
         "DefaultValue": false,
@@ -167,7 +182,8 @@
         "PropertyName": "Separator1",
         "FriendlyName": "--- 订单块 (OB) ---",
         "GroupName": "订单块 显示",
-        "IsValueVisibleInTitle": true
+        "IsValueVisibleInTitle": true,
+        "Description": ""
       },
       {
         "DefaultValue": true,
@@ -175,7 +191,8 @@
         "PropertyName": "ShowOrderBlocks",
         "FriendlyName": "显示订单块",
         "GroupName": "订单块 显示",
-        "IsValueVisibleInTitle": true
+        "IsValueVisibleInTitle": true,
+        "Description": ""
       },
       {
         "DefaultValue": "Aqua",
@@ -183,7 +200,8 @@
         "PropertyName": "BullishObColorString",
         "FriendlyName": "看涨OB颜色",
         "GroupName": "订单块 显示",
-        "IsValueVisibleInTitle": true
+        "IsValueVisibleInTitle": true,
+        "Description": ""
       },
       {
         "DefaultValue": "Magenta",
@@ -191,7 +209,8 @@
         "PropertyName": "BearishObColorString",
         "FriendlyName": "看跌OB颜色",
         "GroupName": "订单块 显示",
-        "IsValueVisibleInTitle": true
+        "IsValueVisibleInTitle": true,
+        "Description": ""
       },
       {
         "DefaultValue": "Gray",
@@ -199,7 +218,8 @@
         "PropertyName": "MitigatedObColorString",
         "FriendlyName": "已回补OB颜色",
         "GroupName": "订单块 显示",
-        "IsValueVisibleInTitle": true
+        "IsValueVisibleInTitle": true,
+        "Description": ""
       },
       {
         "DefaultValue": true,
@@ -207,7 +227,8 @@
         "PropertyName": "ObFillBoxes",
         "FriendlyName": "填充OB方框",
         "GroupName": "订单块 显示",
-        "IsValueVisibleInTitle": true
+        "IsValueVisibleInTitle": true,
+        "Description": ""
       },
       {
         "DefaultValue": true,
@@ -215,7 +236,8 @@
         "PropertyName": "ObExtendBoxes",
         "FriendlyName": "延长OB方框",
         "GroupName": "订单块 显示",
-        "IsValueVisibleInTitle": true
+        "IsValueVisibleInTitle": true,
+        "Description": ""
       },
       {
         "MinValue": 0,
@@ -226,7 +248,8 @@
         "PropertyName": "ObOpacity",
         "FriendlyName": "OB方框透明度",
         "GroupName": "订单块 显示",
-        "IsValueVisibleInTitle": true
+        "IsValueVisibleInTitle": true,
+        "Description": ""
       },
       {
         "DefaultValue": true,
@@ -234,7 +257,8 @@
         "PropertyName": "HideMitigatedObs",
         "FriendlyName": "隐藏已回补OB",
         "GroupName": "订单块 行为",
-        "IsValueVisibleInTitle": true
+        "IsValueVisibleInTitle": true,
+        "Description": ""
       },
       {
         "MinValue": 2,
@@ -245,7 +269,8 @@
         "PropertyName": "StructureLookback",
         "FriendlyName": "结构查找周期",
         "GroupName": "订单块 行为",
-        "IsValueVisibleInTitle": true
+        "IsValueVisibleInTitle": true,
+        "Description": ""
       },
       {
         "DefaultValue": false,
@@ -253,7 +278,8 @@
         "PropertyName": "Separator2",
         "FriendlyName": "--- OB 过滤器 ---",
         "GroupName": "订单块 行为",
-        "IsValueVisibleInTitle": true
+        "IsValueVisibleInTitle": true,
+        "Description": ""
       },
       {
         "DefaultValue": true,
@@ -261,7 +287,8 @@
         "PropertyName": "FilterByVolume",
         "FriendlyName": "启用成交量过滤",
         "GroupName": "订单块 行为",
-        "IsValueVisibleInTitle": true
+        "IsValueVisibleInTitle": true,
+        "Description": ""
       },
       {
         "MinValue": 2,
@@ -272,7 +299,8 @@
         "PropertyName": "VolumeLookback",
         "FriendlyName": "成交量查找周期",
         "GroupName": "订单块 行为",
-        "IsValueVisibleInTitle": true
+        "IsValueVisibleInTitle": true,
+        "Description": ""
       },
       {
         "MinValue": 1.0,
@@ -283,7 +311,8 @@
         "PropertyName": "VolumeMultiplier",
         "FriendlyName": "成交量倍数",
         "GroupName": "订单块 行为",
-        "IsValueVisibleInTitle": true
+        "IsValueVisibleInTitle": true,
+        "Description": ""
       },
       {
         "DefaultValue": true,
@@ -291,13 +320,15 @@
         "PropertyName": "FilterByImbalance",
         "FriendlyName": "启用失衡区过滤",
         "GroupName": "订单块 行为",
-        "IsValueVisibleInTitle": true
+        "IsValueVisibleInTitle": true,
+        "Description": ""
       }
     ],
     "Capabilities": [],
     "CustomAttributes": [],
     "Sets": [],
     "AddIndicatorsToChart": false,
-    "AdditionalInfoUrl": null
+    "AdditionalInfoUrl": null,
+    "Bars": []
   }
 ]

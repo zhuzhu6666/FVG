@@ -297,7 +297,7 @@ namespace cAlgo.Indicators
             }
             else if (ExtendBoxes)
             {
-                endTime = Server.Time.AddYears(1);
+                endTime = Server.Time;
             }
             else
             {
@@ -334,7 +334,7 @@ namespace cAlgo.Indicators
                 _dailyLow = Math.Min(_dailyLow, currentBar.Low);
             }
 
-            var lineEndTime = Server.Time.AddYears(1);
+            var lineEndTime = Server.Time;
             Chart.DrawTrendLine(DailyHighName, _sessionStartBarTime, _dailyHigh, lineEndTime, _dailyHigh, _highLineColor, DailyLineThickness, DailyLineStyle);
             Chart.DrawTrendLine(DailyLowName, _sessionStartBarTime, _dailyLow, lineEndTime, _dailyLow, _lowLineColor, DailyLineThickness, DailyLineStyle);
         }
@@ -450,7 +450,7 @@ namespace cAlgo.Indicators
             }
             else if (ObExtendBoxes)
             {
-                endTime = Server.Time.AddYears(1);
+                endTime = Server.Time;
             }
             else
             {

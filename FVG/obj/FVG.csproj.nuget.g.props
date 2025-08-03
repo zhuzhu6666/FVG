@@ -7,15 +7,15 @@
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\zhuw3\.nuget\packages\</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.14.0</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.0.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\zhuw3\.nuget\packages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)ctrader.automate\1.0.12\build\cTrader.Automate.props" Condition="Exists('$(NuGetPackageRoot)ctrader.automate\1.0.12\build\cTrader.Automate.props')" />
+    <Import Project="$(NuGetPackageRoot)ctrader.automate\1.0.13\build\cTrader.Automate.props" Condition="Exists('$(NuGetPackageRoot)ctrader.automate\1.0.13\build\cTrader.Automate.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgcTrader_Automate Condition=" '$(PkgcTrader_Automate)' == '' ">C:\Users\zhuw3\.nuget\packages\ctrader.automate\1.0.12</PkgcTrader_Automate>
+    <PkgcTrader_Automate Condition=" '$(PkgcTrader_Automate)' == '' ">C:\Users\zhuw3\.nuget\packages\ctrader.automate\1.0.13</PkgcTrader_Automate>
   </PropertyGroup>
 </Project>
